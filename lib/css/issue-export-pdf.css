@@ -11,3 +11,51 @@
 #export-pdf:hover{
 	cursor: pointer;
 }
+.issue-column {
+	width: 50%;
+}
+.issue-colum-content {
+	width: 98%;
+	height: 360px;
+	border: 3px solid black;
+}
+.issue-content-header {
+	font-weight: bold; 
+	background: #AAA; 
+	order-bottom: 1px solid darkgray; 
+	padding-left: 5px;
+	color: white;
+	height: 55px;
+}
+.issue-content-key {
+	font-size: 40px; 
+	padding-left: 5px;
+}
+.issue-content-point {
+	font-size: 34px; 
+	width: 45px; 
+	height: 45px; 
+	float: right; 
+	margin-right: 5px;
+	text-align: center;
+}
+.issue-content-summary-container {
+	background: white;
+	height: 305px;
+	width: 100%;
+	display: inline-block;
+}
+.issue-content-summary {
+	font-weight: bold; 
+	font-size: 32px; 
+	padding: 20px 5px;
+	height: 200px;
+}
+.issue-content-order {
+	float: right; 
+	margin-right: 5px; 
+	width: 45px; height45px; 
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
