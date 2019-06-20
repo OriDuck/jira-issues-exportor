@@ -4,10 +4,13 @@
 	"description": "Vision extention",
 	"content_scripts":[
 		{
-			"matches": ["https://jira.axonivy.com/jira/secure/RapidBoard.jspa?rapidView=51&view=planning.nodetail"],
-			"js": ["lib/js/jquery.min.js", "lib/js/html2pdf.bundle.js", "lib/js/generatePdf.js"],
+			"matches": ["https://jira.axonivy.com/jira/*"],
+			"js": ["lib/js/jquery.min.js", "lib/js/html2pdf.bundle.min.js", "lib/js/jira-export-pdf.js"],
 			"css": ["lib/css/issue-export-pdf.css"]
 		}
+	],
+	"web_accessible_resources":[
+		"images/*"
 	],
 	"manifest_version": 2
 }
