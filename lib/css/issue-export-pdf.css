@@ -11,6 +11,10 @@
 #export-pdf:hover{
 	cursor: pointer;
 }
+.issues-table {
+	width: 100%;
+	height: 100%
+}
 .issue-column {
 	width: 50%;
 }
@@ -22,7 +26,7 @@
 .issue-content-header {
 	font-weight: bold; 
 	background: #AAA; 
-	order-bottom: 1px solid darkgray; 
+	border-bottom: 1px solid darkgray; 
 	padding-left: 5px;
 	color: white;
 	height: 55px;
@@ -44,6 +48,7 @@
 	height: 305px;
 	width: 100%;
 	display: inline-block;
+	font-weight: bold; 
 }
 .issue-content-summary {
 	font-weight: bold; 
@@ -58,4 +63,18 @@
 	font-size: 25px;
 	text-align: center;
 	font-weight: bold;
+}
+/*Subtask*/
+.subtask-content-header {
+	font-weight: bold; 
+	padding-left: 5px;
+	height: 55px;
+}
+
+.issue-content-summary-container.subtask-content-container {
+	text-align: center;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
