@@ -13,15 +13,25 @@
 }
 .issues-table {
 	width: 100%;
-	height: 100%
+	height: 100%;
+	page-break-after:auto;
+	table-layout: fixed;
+}
+.issues-row {
+	page-break-after:auto;
+	page-break-inside: avoid;
 }
 .issue-column {
 	width: 50%;
+	page-break-inside:avoid; 
+	page-break-after:auto
 }
 .issue-colum-content {
 	width: 98%;
-	height: 360px;
+	height: 320px;
 	border: 3px solid black;
+	margin-bottom: 8px;
+	word-break: break-all;
 }
 .issue-content-header {
 	font-weight: bold; 
@@ -45,7 +55,7 @@
 }
 .issue-content-summary-container {
 	background: white;
-	height: 305px;
+	height: 256px;
 	width: 100%;
 	display: inline-block;
 	font-weight: bold; 
@@ -54,7 +64,7 @@
 	font-weight: bold; 
 	font-size: 32px; 
 	padding: 20px 5px;
-	height: 200px;
+	height: 160px;
 }
 .issue-content-order {
 	float: right; 
@@ -77,4 +87,5 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
